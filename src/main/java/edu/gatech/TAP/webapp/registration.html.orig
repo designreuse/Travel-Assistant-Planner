@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>TAP: Travel Advisor & Planner</title>
+    <link rel="stylesheet" href="box.css">
+</head>
+
+<body bgcolor=white>
+
+<table border="0" cellpadding="10" align="center">
+    <tr>
+        <td align=center>
+            <img src="tapIcon.jpg">
+        </td>
+        <td style="text-align: center;">
+
+            <h1>TAP</h1>
+            <h2>Travel Advisor & Planner</h2>
+        </td>
+    </tr>
+</table>
+
+<br />
+<div id = "boxStyle">
+    <div style="text-align: center;">
+        <div id = "boxSize" >
+            <div id = "border">
+                <span style="font-family: verdana,arial; color: #D4D4D4; font-size: 1.00em; font-weight:bold;">Create a new account</span>
+                <div id = "pad">
+
+                    <style type="text/css" scoped>
+
+
+                    </style>
+
+<<<<<<< HEAD
+                    <form method="GET" action="http://localhost:8080/TAP/create" name="home" target="_top">
+=======
+                    <form method="post" action="home.html" name="home" target="_top">
+>>>>>>> upstream/master
+                        <input type="hidden" name="action" value="login">
+                        <input type="hidden" name="hide" value="">
+                        <table class='center'>
+
+                    <tr><td>First Name:</td><td><input type="text" name="firstName"></td></tr>
+                    <tr><td>Last Name:</td><td><input type="text" name="lastName"></td></tr>
+                    <tr><td>Email Address:</td><td><input type="text" name="Email"></td></tr>
+                    <tr><td>Username:</td><td><input type="text" name="Username"></td></tr>
+                    <tr><td>Password:</td><td><input type="password" name="Password"></td></tr>
+
+                    <tr><td>
+
+                    </td></tr>
+
+
+                    <tr><td>&nbsp;</td><td><input align = "center" type="submit" value="Submit"></td></tr>
+                    <tr><td colspan=2>&nbsp;</td></tr>
+
+                </table>
+            </form>
+        </div></div></div>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+-- Change the current directory to MySQL's "bin" directory
+$ cd /usr/local/mysql/bin
+ 
+-- Start the MySQL Database Server
+$ sudo ./mysqld_safe --console
+Enter your password: [type your computer password and enter. NOTHING will be shown for security.]
+xxxxxx xx:xx:xx mysql_safe logging to '/usr/local/mysql/data/xxxxxx.err'
+xxxxxx xx:xx:xx mysql_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+
+To shutdown the server, start a new Terminal and issue:
+$ cd /usr/local/mysql/bin
+ 
+$ sudo ./mysqladmin -u root shutdown     // BEFORE you set a password for root
+// OR
+$ sudo ./mysqladmin -u root -p shutdown  // AFTER you set a password for root
+
+-- Change the current directory to <MYSQL_HOME>\bin.
+$ cd /usr/local/mysql/bin
+ 
+-- Start a client with superuser "root"
+$ ./mysql -u root
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+......
+-- Client started. The prompt changes to "mysql>".
+-- You can now issue SQL commands.
+mysql>
+
+tomcat: 
+
+ant: 
+cd desktop/tap
+git fetch upstream
+git merge upstream/master
+ant clean deploy

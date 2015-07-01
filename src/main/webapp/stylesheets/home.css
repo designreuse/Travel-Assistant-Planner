@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    align: center;
+    color: deepskyblue;
+    font-weight: normal;
+    font-family: 'Orienta', sans-serif;
+
+    text-shadow: 0 2px white, 0 3px #777;
+
+}
+h3 {
+    align: center;
+    color: deepskyblue;
+    font-weight: normal;
+    font-family: sans-serif;
+
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+    background: #2c3e50;
+}
+#wrap {
+    /*margin: 0 auto 30px;*/
+    width: 100%; /* Spans the width of the page */
+    height: 50px;
+    margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+    z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+    position: relative;
+    background-color: #366b82;
+}
+#regbar {
+    height: auto;
+    width: auto;
+    /*background: #34495e;*/
+}
+#navthing {
+    margin: 0px auto;
+
+}
+
+.navbar	{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute; /* Ensures that the menu doesn’t affect other elements */
+    border-right: 1px solid #54879d;
+}
+.navbar li 	{
+    height: auto;
+    width: 150px;  /* Each menu item is 150px wide */
+    float: left;  /* This lines up the menu items horizontally */
+    text-align: center;  /* All text is placed in the center of the box */
+    list-style: none;  /* Removes the default styling (bullets) for the list */
+    font: normal bold 12px/1.2em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #366b82;
+}
+
+.navbar a	{
+    padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+    border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+    border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+    text-decoration: none;  /* Removes the default hyperlink styling. */
+    color: white; /* Text color is white */
+    display: block;
+}
+
+.navbar li:hover, a:hover {background-color: #54879d;}
+
+
+h2 {
+    padding: 20px;
+    color: #ecf0f1;
+}
+
+body {
+    box-align: "center";
+}
+fieldset {
+    border: none;
+}
+.login {
+    position: relative;
+    width: 350px;
+    display: none;
+}
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid #ECF0F1;
+    left: 10%;
+    position: absolute;
+    top: -10px;
+}
+.formholder {
+    background: #ecf0f1;
+    width: 350px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.formholder input[type="email"], .formholder input[type="password"] {
+    padding: 7px 5px;
+    margin: 10px 0;
+    width: 96%;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.formholder input[type="email"]:focus, .formholder input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #1abc9c;
+}
+.formholder input[type="submit"] {
+    background: #1abc9c;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.formholder input[type="submit"]:hover {
+    background: #1bc6a4;
+}
+.randompad {
+    padding: 10px;
+    text-align:left;
+}
+.green {
+    color: #1abc9c;
+}
+a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+a:hover {
+    color: #1abc9c;
+}

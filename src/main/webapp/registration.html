@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>TAP Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+
+    <div class="jumbotron">
+        <div class="container">
+
+            <h1>TAP</h1>
+            <h2>Travel Advisor & Planner</h2>
+            <p>Create a new account.</p>
+            </div>
+
+    </div>
+
+<br />
+    <div class = "container">
+
+
+                    <form method="GET" action="http://localhost:8080/TAP/create" name="home" target="_top">
+                        <input type="hidden" name="action" value="login">
+                        <input type="hidden" name="hide" value="">
+                        <table class='center'>
+                            <fieldset>
+                                <legend>Create a new account</legend>
+
+                    <tr><td>First Name:</td><td><input type="text" name="firstName"></td></tr>
+                    <tr><td>Last Name:</td><td><input type="text" name="lastName"></td></tr>
+                    <tr><td>Email Address:</td><td><input type="text" name="Email"></td></tr>
+                    <tr><td>Username:</td><td><input type="text" name="Username"></td></tr>
+                    <tr><td>Password:</td><td><input type="password" name="Password"></td></tr>
+
+                    <tr><td>
+
+                    </td></tr>
+
+
+                    <tr><td>&nbsp;</td><td><input align = "center" type="submit" value="Submit"></td></tr>
+                    <tr><td colspan=2>&nbsp;</td></tr>
+                                </fieldset>
+
+                </table>
+            </form>
+        </div>
+    <div class="container">
+        <hr>
+
+        <footer>
+            <p>&copy; <a href="Contact.jsp"> Contact Us</a>  |   TAP 2014     |     CS 2340    |    Georgia Tech</p>
+        </footer>
+    </div>
+</body>
+</html>
